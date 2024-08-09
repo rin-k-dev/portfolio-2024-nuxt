@@ -315,11 +315,57 @@ img {
       font-size: 1rem;
       line-height: 1.6;
       font-weight: 700;
-      color: var(--color-black);
+      color: #000;
       position: absolute;
       top: 40%;
       left: 50%;
       transform: translate(-50%, -40%);
+    }
+  }
+}
+
+@media(min-width:1025px) {
+  #main-visual {
+    .main-visual__container {
+      width: 100%;
+      height: auto;
+      background-image: url(~/assets/image/top/main_visual_pc.png);
+      aspect-ratio: 1440 / 920;
+      background-size: cover;
+      position: relative;
+      .main-visual__text {
+        font-size: 3rem;
+        line-height: 1.6;
+        font-weight: 700;
+        color: #000;
+        position: absolute;
+        top: 43%;
+        left: 50.5%;
+        transform: translate(-50.5%, -43%);
+      }
+    }
+  }
+}
+
+@media(min-width:768px) and (max-width:1024.9px) {
+  #main-visual {
+    .main-visual__container {
+      width: 100%;
+      height: auto;
+      background-image: url(~/assets/image/top/main_visual_pc.png);
+      aspect-ratio: 1440 / 920;
+      background-size: cover;
+      position: relative;
+      .main-visual__text {
+        font-size: 2rem;
+        line-height: 1.6;
+        font-weight: 700;
+        color: #000;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -43%);
+      }
     }
   }
 }
