@@ -301,3 +301,27 @@ img {
   }
 }
 /* #header ここまで */
+
+/* #main-visual ここから */
+#main-visual {
+  .main-visual__container {
+    width: 100%;
+    height: auto;
+    background-image: url(~/assets/image/top/main_visual_sp.png);
+    aspect-ratio: 375 / 225;
+    background-size: cover;
+    position: relative;
+    .main-visual__text {
+      font-size: 1rem;
+      line-height: 1.6;
+      font-weight: 700;
+      color: var(--color-black);
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -40%);
+    }
+  }
+}
+
+/* #main-visual ここまで */

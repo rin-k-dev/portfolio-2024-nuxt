@@ -1,7 +1,17 @@
 <template>
-  <Header>
+  <div>
+    <Header>
 
-  </Header>
+    </Header>
+    <section id="main-visual">
+      <div class="main-visual__container">
+        <p class="main-visual__text noto-sans-jp">
+          Hello
+        </p>
+      </div>
+    </section>
+  </div>
+
 
 </template>
 
