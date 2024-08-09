@@ -1,7 +1,6 @@
 <template>
   <div>
     <Header>
-
     </Header>
     <section id="main-visual">
       <div class="main-visual__container">
