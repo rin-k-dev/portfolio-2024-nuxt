@@ -1,9 +1,17 @@
 <template>
-  <Tutorial/>
+  <Header />
 </template>
 
 <script>
+import Header from '~/components/Header.vue';
+
 export default {
-  name: 'IndexPage'
-}
+  components: {
+    Header
+  }
+};
 </script>
+
+<style scoped>
+/* ページ固有のスタイルがあればここに記述します */
+</style>
