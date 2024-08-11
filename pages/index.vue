@@ -120,6 +120,46 @@
         </div>
       </section>
       <!-- #works ここまで-->
+      <!-- #about ここから-->
+      <section id="about">
+        <div class="about__wrapper">
+          <div class="about__container">
+            <h2 class="about__title">
+              <span class="about__title-english noto-sans-jp">
+                About
+              </span>
+              <span class="about__title-japanese noto-sans-jp">
+                私について
+              </span>
+            </h2>
+            <div class="about__photo-container">
+              <img class="sp_only about__photo" src="~/assets/image/top/about_img_sp.png" alt="">
+              <img class="pc_only about__photo" src="~/assets/image/top/about_img_pc.png" alt="">
+            </div>
+            <div class="about__text-container">
+              <p class="sp_only about__text noto-sans-jp">
+                <span>Name: Rin K</span>
+                <span>千葉県船橋市出身。大学院修了後、契約社員と</span>
+                <span>して都内のIT系企業にてアプリテスターとして5</span>
+                <span>年間勤務。主にスマホゲームや証券系アプリの</span>
+                <span>テスト経験あり。</span>
+                <span>自分でもWebサイトを作ってみたいと思い、</span>
+                <span>2021年12月からWebデザインのスクールである</span>
+                <span>デジタルハリウッド by LIGでWebデザインの基</span>
+                <span>礎を習得。2022年12月卒業。</span>
+              </p>
+              <p class="pc_only about__text noto-sans-jp">
+                <span>Name: Rin K</span>
+                <span>千葉県船橋市出身。大学院修了後、契約社員として都内のIT系企業にてアプリテスターとして5年間勤務。</span>
+                <span>主にスマホゲームや証券系アプリのテスト経験あり。自分でもWebサイトを作ってみたいと思い、</span>
+                <span>2021年12月からWebデザインのスクールであるデジタルハリウッド by LIGでWebデザインの基礎を習得。</span>
+                <span>2022年12月卒業。</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- #about ここまで-->
     </main>
   </div>
 </template>
