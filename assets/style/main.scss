@@ -14,6 +14,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 130px;
   width: 100%;
   font-size: 100%;
 }
@@ -83,9 +84,7 @@ img {
   .header__nav {
     width: 100%;
     height: calc(100vh - 6.25rem);
-    background-color: rgba(255, 255, 255, .8);
-    display: flex;
-    flex-direction: column;
+    background-color: rgba(255, 255, 255, .3);
     text-align: center;
   }
   .header__nav {
