@@ -1241,8 +1241,8 @@ img {
       .about__container {
         width: calc(100% - 5rem);
         max-width: 1360px;
-        padding-top: 70px;
-        padding-bottom: 7.5rem;
+        padding-top: 4.375rem;
+        padding-bottom: 180px;
         margin: 0 auto;
         .about__title {
           text-align: center;
@@ -1279,8 +1279,12 @@ img {
           }
         }
         .about__text-container {
-          padding-top: 1.875rem;
+          padding-top: 3.75rem;
+          text-align: center;
           .sp_only.about__text {
+            display: none;
+          }
+          .pc_only.about__text {
             display: inline-block;
             text-align: left;
             font-size: 1rem;
@@ -1290,9 +1294,6 @@ img {
             span {
               display: block;
             }
-          }
-          .pc_only.about__text {
-            display: none;
           }
         }
       }
