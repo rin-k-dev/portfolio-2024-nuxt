@@ -25,7 +25,7 @@
       </section>
       <!-- #introduction ここまで -->
       <!-- #service ここから -->
-      <section id="service">
+      <section id="service" class="scroll-target">
         <div class="service__wrapper">
           <div class="service__container">
             <h2 class="service__title">
@@ -86,7 +86,7 @@
       </section>
       <!-- #service ここまで -->
       <!-- #works ここから-->
-      <section id="works">
+      <section id="works" class="scroll-target">
         <div class="works__wrapper">
           <div class="works__container">
             <h2 class="works__title">
@@ -121,7 +121,7 @@
       </section>
       <!-- #works ここまで-->
       <!-- #about ここから-->
-      <section id="about">
+      <section id="about" class="scroll-target">
         <div class="about__wrapper">
           <div class="about__container">
             <h2 class="about__title">

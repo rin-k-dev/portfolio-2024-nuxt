@@ -12,38 +12,10 @@
       </div>
       <nav class="header__nav" :class="{ open: isMenuOpen }">
         <ul>
-          <li>
-            <nuxt-link
-              class="header__link-service noto-sans-jp"
-              :to="{ path: '/', hash: '#service' }"
-              @click.native="closeMenu">
-              Service
-            </nuxt-link>
-          </li>
-          <li>
-            <nuxt-link
-              class="header__link-works noto-sans-jp"
-              :to="{ path: '/', hash: '#works' }"
-              @click.native="closeMenu">
-              Works
-            </nuxt-link>
-          </li>
-          <li>
-            <nuxt-link
-              class="header__link-about noto-sans-jp"
-              :to="{ path: '/', hash: '#about' }"
-              @click.native="closeMenu">
-              About
-            </nuxt-link>
-          </li>
-          <li>
-            <nuxt-link
-              class="header__link-contact noto-sans-jp"
-              :to="{ path: '/', hash: '#contact' }"
-              @click.native="closeMenu">
-              Contact
-            </nuxt-link>
-          </li>
+          <li><a class="header__link-service noto-sans-jp" href="#service" @click="closeMenu">Service</a></li>
+          <li><a class="header__link-works noto-sans-jp" href="#works" @click="closeMenu">Works</a></li>
+          <li><a class="header__link-about noto-sans-jp" href="#about" @click="closeMenu">About</a></li>
+          <li><a class="header__link-contact noto-sans-jp" href="#contact" @click="closeMenu">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -64,7 +36,7 @@ export default {
     },
     closeMenu() {
       this.isMenuOpen = false;
-    }
+    },
   }
 }
 </script>
