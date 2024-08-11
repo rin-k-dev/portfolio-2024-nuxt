@@ -71,7 +71,7 @@
               <ul class="service__content-list noto-sans-jp pc_only">
                 <li><span>・Photoshop,XD,Figmaを用いたデザインカンプの作成</span></li>
                 <li><span>・Webサイトのデザイン</span></li>
-                <li><span>・Webサイトのデザイン</span></li>
+                <li><span>・LPのデザイン</span></li>
               </ul>
             </div>
           </div>
