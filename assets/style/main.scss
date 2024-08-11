@@ -906,6 +906,7 @@ img {
       width: calc(100% - 1.875rem);
       margin: 0 auto;
       padding-top: 0.9375rem;
+      padding-bottom: 4.5625rem;
       .works__title {
         text-align: center;
         .works__title-english {
@@ -955,6 +956,27 @@ img {
           .works__link:hover {
             opacity: .7;
           }
+        }
+      }
+      .works__more-link-container {
+        cursor: pointer;
+        display: block;
+        text-align: center;
+        margin-top: 4.8125rem;
+        .more-link {
+          width: 13.3125rem;
+          height: 4.0625rem;
+          background-color: var(--color-purple);
+          border-radius: 50px;
+          color: var(--color-white);
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 1.6;
+          padding: 0.875rem 2.9375rem 0.8125rem 2.875rem;
+          transition: all .3s ease-out;
+        }
+        .more-link:hover {
+          opacity: .7;
         }
       }
     }

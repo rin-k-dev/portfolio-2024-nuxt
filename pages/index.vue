@@ -111,6 +111,11 @@
                 </a>
               </div>
             </div>
+            <div class="works__more-link-container">
+              <nuxt-link to="/works" class="more-link noto-sans-jp">
+                もっと見る
+              </nuxt-link>
+            </div>
           </div>
         </div>
       </section>
