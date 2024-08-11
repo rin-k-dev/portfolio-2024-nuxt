@@ -85,6 +85,36 @@
         </div>
       </section>
       <!-- #service ここまで -->
+      <!-- #works ここから-->
+      <section id="works">
+        <div class="works__wrapper">
+          <div class="works__container">
+            <h2 class="works__title">
+              <span class="works__title-english noto-sans-jp">
+                Works
+              </span>
+              <span class="works__title-japanese noto-sans-jp">
+                制作実績
+              </span>
+            </h2>
+            <div class="works__content-wrapper-1">
+              <div class="works__content">
+                <a class="works__link" href="https://webcreatorrin.com/sugutabe" target="_blank" rel="noopener noreferrer">
+                  <img class="sp_only works__photo" src="~/assets/image/top/work_1_sp.png" alt="">
+                  <img class="pc_only works__photo" src="~/assets/image/top/work_1_pc.png" alt="">
+                </a>
+              </div>
+              <div class="works__content">
+                <a class="works__link" href="https://webcreatorrin.com/sugutabe" target="_blank" rel="noopener noreferrer">
+                  <img class="sp_only works__photo" src="~/assets/image/top/work_2_sp.png" alt="">
+                  <img class="pc_only works__photo" src="~/assets/image/top/work_2_pc.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- #works ここまで-->
     </main>
   </div>
 </template>
