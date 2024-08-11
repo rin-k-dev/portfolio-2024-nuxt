@@ -3,6 +3,7 @@
     <Header>
     </Header>
     <main id="top">
+      <!-- #main-visual ここから -->
       <section id="main-visual">
         <div class="main-visual__container">
           <p class="main-visual__text noto-sans-jp">
@@ -10,6 +11,8 @@
           </p>
         </div>
       </section>
+      <!-- #main-visual ここまで -->
+      <!-- #introduction ここから -->
       <section id="introduction">
         <div class="introduction__container">
           <h2 class="introduction__title noto-sans-jp">Rin K</h2>
@@ -20,6 +23,8 @@
           </p>
         </div>
       </section>
+      <!-- #introduction ここまで -->
+      <!-- #service ここから -->
       <section id="service">
         <div class="service__wrapper">
           <div class="service__container">
@@ -79,6 +84,7 @@
           </div>
         </div>
       </section>
+      <!-- #service ここまで -->
     </main>
   </div>
 </template>
