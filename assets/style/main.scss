@@ -1642,6 +1642,10 @@ img {
         #contact__form {
           .contact__form-wrapper {
             display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 1rem;
             .contact__form-group-name {
               width: 25rem;
               margin: 0;
@@ -1703,7 +1707,7 @@ img {
           }
           .contact__submit-button {
             display: block;
-            margin-top: 1.6875rem;
+            margin-top: 3.75rem;
             margin-left: auto;
             margin-right: auto;
             background-color: var(--color-purple);
