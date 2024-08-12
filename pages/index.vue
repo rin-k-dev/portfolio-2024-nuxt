@@ -160,6 +160,22 @@
         </div>
       </section>
       <!-- #about ここまで-->
+      <!-- #contact ここから-->
+      <section id="contact">
+        <div class="contact__wrapper">
+          <div class="contact__container">
+            <h2 class="contact__title">
+              <span class="contact__title-english noto-sans-jp">
+                Contact
+              </span>
+              <span class="contact__title-japanese noto-sans-jp">
+                お問い合わせ
+              </span>
+            </h2>
+          </div>
+        </div>
+      </section>
+      <!-- #contact ここまで-->
     </main>
   </div>
 </template>
