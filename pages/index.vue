@@ -192,16 +192,16 @@
               target="hidden_iframe"
               @submit="onSubmit">
               <div class="contact__form-wrapper">
-                <div class="contact__form-group">
+                <div class="contact__form-group-name">
                   <label for="name" class="contact__name-label noto-sans-jp">Name<span class="contact__text-red">*</span></label>
                   <input type="text" id="name" class="contact__name-input" name="entry.51272466" required>
                 </div>
-                <div class="contact__form-group">
+                <div class="contact__form-group-email">
                   <label for="email" class="contact__email-label noto-sans-jp">EMail<span class="contact__text-red">*</span></label>
                   <input type="text" id="email" class="contact__email-input" name="entry.2141206940" required>
                 </div>
               </div>
-              <div class="contact__form-group">
+              <div class="contact__form-group-message">
                 <label for="message" class="contact__message-label noto-sans-jp">Message<span class="contact__text-red">*</span></label>
                 <textarea id="message" class="contact__message-textarea" name="entry.1714098188" cols="41" rows="11" required></textarea>
               </div>

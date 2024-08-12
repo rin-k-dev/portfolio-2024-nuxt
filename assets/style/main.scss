@@ -1504,7 +1504,7 @@ img {
       }
       #contact__form {
         .contact__form-wrapper {
-          .contact__form-group {
+          .contact__form-group-name {
             .contact__name-label {
               display: block;
               font-size: 1rem;
@@ -1521,7 +1521,7 @@ img {
               margin-top: 6px;
             }
           }
-          .contact__form-group {
+          .contact__form-group-email {
             .contact__email-label {
               display: block;
               font-size: 1rem;
@@ -1539,7 +1539,7 @@ img {
             }
           }
         }
-        .contact__form-group {
+        .contact__form-group-message {
           .contact__message-label {
             display: block;
             font-size: 1rem;
@@ -1641,7 +1641,7 @@ img {
         }
         #contact__form {
           .contact__form-wrapper {
-            .contact__form-group {
+            .contact__form-group-name {
               .contact__name-label {
                 display: block;
                 font-size: 1rem;
@@ -1658,7 +1658,7 @@ img {
                 margin-top: 6px;
               }
             }
-            .contact__form-group {
+            .contact__form-group-email {
               .contact__email-label {
                 display: block;
                 font-size: 1rem;
@@ -1676,7 +1676,7 @@ img {
               }
             }
           }
-          .contact__form-group {
+          .contact__form-group-message {
             width: 61.18%;
             margin: 0 auto;
             .contact__message-label {
