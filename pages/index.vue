@@ -172,6 +172,19 @@
                 お問い合わせ
               </span>
             </h2>
+            <div class="contact__text-wrapper">
+              <p class="sp_only contact__text noto-sans-jp">
+                <span>Web制作のお仕事のご依頼・その他のご相談な</span>
+                <span>どございましたら、お気軽に下記フォームより</span>
+                <span>お問い合わせください。</span>
+              </p>
+              <p class="pc_only contact__text noto-sans-jp">
+                <span>Web制作のお仕事のご依頼・その他のご相談などございましたら、お気軽に下記フォームよりお問い合わせください。</span>
+              </p>
+              <p class="contact__text-required-item noto-sans-jp">
+                <span class="contact__text-red">*</span>は必須項目です。
+              </p>
+            </div>
           </div>
         </div>
       </section>
