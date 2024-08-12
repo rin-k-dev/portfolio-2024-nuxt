@@ -12,10 +12,10 @@
       </div>
       <nav class="header__nav" :class="{ open: isMenuOpen }">
         <ul>
-          <li><a class="header__link-service noto-sans-jp" href="#service" @click="closeMenu">Service</a></li>
-          <li><a class="header__link-works noto-sans-jp" href="#works" @click="closeMenu">Works</a></li>
-          <li><a class="header__link-about noto-sans-jp" href="#about" @click="closeMenu">About</a></li>
-          <li><a class="header__link-contact noto-sans-jp" href="#contact" @click="closeMenu">Contact</a></li>
+          <li><a class="header__link-service noto-sans-jp" href="/#service" @click="closeMenu">Service</a></li>
+          <li><a class="header__link-works noto-sans-jp" href="/#works" @click="closeMenu">Works</a></li>
+          <li><a class="header__link-about noto-sans-jp" href="/#about" @click="closeMenu">About</a></li>
+          <li><a class="header__link-contact noto-sans-jp" href="/#contact" @click="closeMenu">Contact</a></li>
         </ul>
       </nav>
     </div>
