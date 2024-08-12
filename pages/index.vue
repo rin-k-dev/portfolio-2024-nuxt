@@ -207,7 +207,7 @@
               </div>
               <button type="submit" class="contact__submit-button">送信</button>
             </form>
-            <div id="contact__form-message" class="form__message"></div>
+            <div id="contact__form-message" class="form__message noto-sans-jp"></div>
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
           </div>
         </div>
