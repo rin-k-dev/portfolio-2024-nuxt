@@ -185,6 +185,30 @@
                 <span class="contact__text-red">*</span>は必須項目です。
               </p>
             </div>
+            <form
+              id="contact__form"
+              action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSd3bx6dVjbPLvllh62CrC04zVsCMCu83ZT5bRb4bSbYv9rt6w/formResponse"
+              method="POST"
+              target="hidden_iframe"
+              @submit="onSubmit">
+              <div class="contact__form-wrapper">
+                <div class="contact__form-group">
+                  <label for="name" class="contact__name-label noto-sans-jp">Name<span class="contact__text-red">*</span></label>
+                  <input type="text" id="name" class="contact__name-input" name="entry.51272466" required>
+                </div>
+                <div class="contact__form-group">
+                  <label for="email" class="contact__email-label noto-sans-jp">EMail<span class="contact__text-red">*</span></label>
+                  <input type="text" id="email" class="contact__email-input" name="entry.2141206940" required>
+                </div>
+              </div>
+              <div class="contact__form-group">
+                <label for="message" class="contact__message-label noto-sans-jp">Message<span class="contact__text-red">*</span></label>
+                <textarea id="message" class="contact__message-textarea" name="entry.1714098188" cols="41" rows="11" required></textarea>
+              </div>
+              <button type="submit" class="contact__submit-button">送信</button>
+            </form>
+            <div id="contact__form-message" class="form__message"></div>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
           </div>
         </div>
       </section>
@@ -199,7 +223,22 @@ import Header from '~/components/Header.vue';
 export default {
   components: {
     Header
-  }
+  },
+  data() {
+    return {
+      submitted: false,
+    };
+  },
+  methods: {
+    onSubmit() {
+      this.submitted = true;
+      setTimeout(() => {
+        document.getElementById('contact__form-message').textContent = '送信が完了しました。';
+        document.getElementById('contact__form').reset();
+        this.submitted = false;
+      }, 1000);
+    },
+  },
 };
 </script>
 
