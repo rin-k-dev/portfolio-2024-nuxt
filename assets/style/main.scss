@@ -1647,7 +1647,7 @@ img {
             gap: 2rem;
             margin-top: 1rem;
             .contact__form-group-name {
-              width: 25rem;
+              width: 29.41%;
               margin: 0;
               .contact__name-label {
                 display: block;
@@ -1658,7 +1658,7 @@ img {
                 margin-top: 0;
               }
               .contact__name-input {
-                width: 25rem;
+                width: 100%;
                 background-color: var(--color-white);
                 border-radius: 10px;
                 padding: 10px;
@@ -1666,7 +1666,7 @@ img {
               }
             }
             .contact__form-group-email {
-              width: 25rem;
+              width: 29.41%;
               margin: 0;
               .contact__email-label {
                 display: block;
@@ -1677,7 +1677,7 @@ img {
                 margin-top: 0;
               }
               .contact__email-input {
-                width: 25rem;
+                width: 100%;
                 background-color: var(--color-white);
                 border-radius: 10px;
                 padding: 10px;
