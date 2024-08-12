@@ -1641,16 +1641,17 @@ img {
         }
         #contact__form {
           .contact__form-wrapper {
+            display: flex;
             .contact__form-group-name {
-              width: 61.18%;
-              margin: 0 auto;
+              width: 25rem;
+              margin: 0;
               .contact__name-label {
                 display: block;
                 font-size: 1rem;
                 font-weight: 400;
                 line-height: 1.6;
                 color: #000;
-                margin-top: 1.875rem;
+                margin-top: 0;
               }
               .contact__name-input {
                 width: 25rem;
@@ -1661,15 +1662,15 @@ img {
               }
             }
             .contact__form-group-email {
-              width: 61.18%;
-              margin: 0 auto;
+              width: 25rem;
+              margin: 0;
               .contact__email-label {
                 display: block;
                 font-size: 1rem;
                 font-weight: 400;
                 line-height: 1.6;
                 color: #000;
-                margin-top: 0.625rem;
+                margin-top: 0;
               }
               .contact__email-input {
                 width: 25rem;
