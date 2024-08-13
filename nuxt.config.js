@@ -9,10 +9,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'description', content: 'WebコーダーRinのポートフォリオサイト' },
+      { name: 'description', content: 'WebデザイナーRinのポートフォリオサイト' },
       { name: 'keywords', content: '' },
       { property: 'og:title', content: "Rin's Portfolio Website" },
-      { property: 'og:description', content: 'WebコーダーRinのポートフォリオサイト' },
+      { property: 'og:description', content: 'WebデザイナーRinのポートフォリオサイト' },
       { property: 'og:type', content: 'article' },
       { property: 'og:url', content: 'https://www.webcreatorrin.com/' },
       { property: 'og:image', content: 'https://www.webcreatorrin.com/ogp.jpg' },

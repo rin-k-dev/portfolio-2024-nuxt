@@ -17,7 +17,7 @@
         <div class="introduction__container">
           <h2 class="introduction__title noto-sans-jp">Rin K</h2>
           <p class="introduction__text noto-sans-jp">
-            <span>千葉県在住のフリーランスWebコーダーです。</span>
+            <span>千葉県在住のフリーランスWebデザイナーです。</span>
             <span>ポートフォリオをご覧いただきありがとうございます。</span>
             <span>Web制作のお仕事承ります。</span>
           </p>
@@ -39,6 +39,27 @@
             <div class="service__content-wrapper">
               <div class="service__content">
                 <h3 class="service__content-title noto-sans-jp">
+                  Webデザイン
+                </h3>
+                <p class="service__content-text sp_only noto-sans-jp">
+                  <span>Webサイトのデザイン</span>
+                </p>
+                <p class="service__content-text pc_only noto-sans-jp">
+                  <span>Webサイトのデザイン</span>
+                </p>
+                <ul class="service__content-list noto-sans-jp sp_only">
+                  <li><span>・Photoshop,XD,Figmaを用いたデザイン</span><span>カンプの作成</span></li>
+                  <li><span>・Webサイトのデザイン</span></li>
+                  <li><span>・LPのデザイン</span></li>
+                </ul>
+                <ul class="service__content-list noto-sans-jp pc_only">
+                  <li><span>・Photoshop,XD,Figmaを用いたデザインカンプの作成</span></li>
+                  <li><span>・Webサイトのデザイン</span></li>
+                  <li><span>・LPのデザイン</span></li>
+                </ul>
+              </div>
+              <div class="service__content">
+                <h3 class="service__content-title noto-sans-jp">
                   HTML/CSSコーディング
                 </h3>
                 <p class="service__content-text sp_only noto-sans-jp">
@@ -57,27 +78,6 @@
                   <li><span>・最新のHTML/CSSに基づいたコーディング</span></li>
                   <li><span>・BEM、FLOCSSなどのCSS設計に柔軟に対応可能</span></li>
                   <li><span>・JavaScriptライブラリのサイトへの導入</span></li>
-                </ul>
-              </div>
-              <div class="service__content">
-                <h3 class="service__content-title noto-sans-jp">
-                  Webデザイン
-                </h3>
-                <p class="service__content-text sp_only noto-sans-jp">
-                  <span>Webサイトのデザインも可能です。</span>
-                </p>
-                <p class="service__content-text pc_only noto-sans-jp">
-                  <span>Webサイトのデザインも可能です。</span>
-                </p>
-                <ul class="service__content-list noto-sans-jp sp_only">
-                  <li><span>・Photoshop,XD,Figmaを用いたデザイン</span><span>カンプの作成</span></li>
-                  <li><span>・Webサイトのデザイン</span></li>
-                  <li><span>・LPのデザイン</span></li>
-                </ul>
-                <ul class="service__content-list noto-sans-jp pc_only">
-                  <li><span>・Photoshop,XD,Figmaを用いたデザインカンプの作成</span></li>
-                  <li><span>・Webサイトのデザイン</span></li>
-                  <li><span>・LPのデザイン</span></li>
                 </ul>
               </div>
             </div>
