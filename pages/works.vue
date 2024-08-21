@@ -2,7 +2,14 @@
   <div>
     <Header></Header>
     <main id="works">
-
+      <section class="works__title">
+        <div class="works__title-container">
+          <h2 class="works__title-text">
+            <span class="works__title-english noto-sans-jp">Works</span>
+            <span class="works__title-japanese noto-sans-jp">制作実績</span>
+          </h2>
+        </div>
+      </section>
     </main>
     <Footer></Footer>
   </div>
