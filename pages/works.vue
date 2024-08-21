@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header></Header>
-    <main id="works">
+    <main id="works-list">
       <section class="works__title">
         <div class="works__title-container">
           <h2 class="works__title-text">

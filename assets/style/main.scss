@@ -1917,8 +1917,8 @@ img {
 }
 /* #footer ここまで */
 
-/* #works ここから */
-#works {
+/* #works-list ここから */
+#works-list {
   .works__title {
     .works__title-container {
       width: 100%;
@@ -1947,7 +1947,7 @@ img {
 }
 
 @media(min-width:768px) {
-  #works {
+  #works-list {
     .works__title {
       .works__title-container {
         width: 100%;
@@ -1976,4 +1976,4 @@ img {
   }
 }
 
-/* #works ここまで */
+/* #works-list ここまで */
