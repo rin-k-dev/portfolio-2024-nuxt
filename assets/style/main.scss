@@ -2067,8 +2067,8 @@ img {
       align-items: center;
       gap: 3.75rem;
       .works-list__content {
-        width: 19.6875rem;
-        height: 11.25rem;
+        width: 100%;
+        height: auto;
         border-radius: 5px;
         overflow: hidden;
         box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.20);
@@ -2084,7 +2084,7 @@ img {
             vertical-align: top;
             width: 100%;
             height: 100%;
-            aspect-ratio: 315 / 193;
+            aspect-ratio: 315 / 180;
             object-fit: cover;
             object-position: top;
           }
@@ -2191,7 +2191,7 @@ img {
               vertical-align: top;
               width: 100%;
               height: 100%;
-              aspect-ratio: 315 / 193;
+              aspect-ratio: 500 / 313;
               object-fit: cover;
               object-position: top;
             }
