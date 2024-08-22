@@ -1919,23 +1919,23 @@ img {
 
 /* #works-list ここから */
 #works-list {
-  .works__title {
-    .works__title-container {
+  .works-list__title {
+    .works-list__title-container {
       width: 100%;
       height: auto;
       background-image: url("~/assets/image/works/works_main_visual_sp.png");
       aspect-ratio: 375 / 170;
       background-size: cover;
       padding-top: 2.6875rem;
-      .works__title-text {
+      .works-list__title-text {
         text-align: center;
-        .works__title-english {
+        .works-list__title-english {
           display: block;
           font-size: 2rem;
           font-weight: 700;
           line-height: 1.6;
         }
-        .works__title-japanese {
+        .works-list__title-japanese {
           display: block;
           font-size: 0.875rem;
           font-weight: 400;
@@ -1948,29 +1948,67 @@ img {
 
 @media(min-width:768px) {
   #works-list {
-    .works__title {
-      .works__title-container {
+    .works-list__title {
+      .works-list__title-container {
         width: 100%;
         height: auto;
         background-image: url("~/assets/image/works/works_main_visual_pc.png");
         aspect-ratio: 1440 / 350;
         background-size: cover;
         padding-top: 7.75rem;
-        .works__title-text {
+        .works-list__title-text {
           text-align: center;
-          .works__title-english {
+          .works-list__title-english {
             display: block;
             font-size: 4rem;
             font-weight: 700;
             line-height: 1.6;
           }
-          .works__title-japanese {
+          .works-list__title-japanese {
             display: block;
             font-size: 1.5rem;
             font-weight: 400;
             line-height: 1.6;
           }
         }
+      }
+    }
+  }
+}
+
+#works-list {
+  .works-list__contents {
+    background-color: #F2F2F2;
+    width: 100%;
+    .works-list-contents-container {
+      width: calc(100% - 3.75rem);
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 7.5rem;
+      padding-bottom: 3.75rem;
+      .works-list__content {
+        width: 100%;
+        height: 180px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.20);
+        .works__link {
+          display: block;
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+          .sp_only.works-list__photo {
+            width: 100%;
+            height: 100%;
+            aspect-ratio: 315 / 193;
+            object-fit: cover;
+            object-position: top;
+          }
+          .pc_only.works-list__photo {
+            display: none;
+          }
+        }
+
       }
     }
   }
