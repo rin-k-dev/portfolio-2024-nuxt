@@ -1996,18 +1996,17 @@ img {
       background-image: url("~/assets/image/works/works_main_visual_sp.png");
       aspect-ratio: 375 / 170;
       background-size: cover;
-      padding-top: 2.6875rem;
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
       .works-list__title-text {
         text-align: center;
-
         .works-list__title-english {
           display: block;
           font-size: 2rem;
           font-weight: 700;
           line-height: 1.6;
         }
-
         .works-list__title-japanese {
           display: block;
           font-size: 0.875rem;
@@ -2028,11 +2027,11 @@ img {
         background-image: url("~/assets/image/works/works_main_visual_pc.png");
         aspect-ratio: 1440 / 350;
         background-size: cover;
-        padding-top: 7.75rem;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .works-list__title-text {
           text-align: center;
-
           .works-list__title-english {
             display: block;
             font-size: 4rem;
