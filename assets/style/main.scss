@@ -2204,3 +2204,68 @@ img {
 }
 
 /* #works-list ここまで */
+
+/* #work-page ここから */
+#work-page {
+  .work-page__title {
+    .work-page__title-container {
+      width: 100%;
+      height: auto;
+      background-image: url("~/assets/image/work/work_page_main_visual_sp.png");
+      aspect-ratio: 375 / 170;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .work-page__title-text {
+        text-align: center;
+        .work-page__title-english {
+          display: block;
+          font-size: 2rem;
+          font-weight: 700;
+          line-height: 1.6;
+        }
+        .work-page__title-japanese {
+          display: block;
+          font-size: 0.875rem;
+          font-weight: 400;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width:768px) {
+  #work-page {
+    .work-page__title {
+      .work-page__title-container {
+        width: 100%;
+        height: auto;
+        background-image: url("~/assets/image/work/work_page_main_visual_pc.png");
+        aspect-ratio: 1440 / 350;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .work-page__title-text {
+          text-align: center;
+          .work-page__title-english {
+            display: block;
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 1.6;
+          }
+
+          .work-page__title-japanese {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.6;
+          }
+        }
+      }
+    }
+  }
+}
+/* #work-page ここまで */
