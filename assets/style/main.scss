@@ -2064,9 +2064,10 @@ img {
       padding-bottom: 3.75rem;
       display: flex;
       flex-direction: column;
+      align-items: center;
       gap: 3.75rem;
       .works-list__content {
-        width: 100%;
+        width: 19.6875rem;
         height: 11.25rem;
         border-radius: 5px;
         overflow: hidden;
@@ -2098,7 +2099,7 @@ img {
   }
 }
 
-@media(min-width:1025px) {
+@media(min-width:1390px) {
   #works-list {
     .works-list__contents {
       background-color: #F2F2F2;
@@ -2149,7 +2150,7 @@ img {
   }
 }
 
-@media(min-width:768px) and (max-width:1024.91px) {
+@media(min-width:768px) and (max-width:1389.91px) {
   #works-list {
     .works-list__contents {
       background-color: #F2F2F2;
