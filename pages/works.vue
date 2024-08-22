@@ -18,6 +18,18 @@
               <img class="pc_only works-list__photo" src="~/assets/image/works/sugutabe_img_pc.png" alt="">
             </a>
           </div>
+          <div class="works-list__content">
+            <a class="works__link" href="https://webcreatorrin.com/sugutabe">
+              <img class="sp_only works-list__photo" src="~/assets/image/works/works_img_sp.png" alt="">
+              <img class="pc_only works-list__photo" src="~/assets/image/works/works_img_pc.png" alt="">
+            </a>
+          </div>
+          <div class="works-list__content">
+            <a class="works__link" href="https://webcreatorrin.com/sugutabe">
+              <img class="sp_only works-list__photo" src="~/assets/image/works/works_img_sp.png" alt="">
+              <img class="pc_only works-list__photo" src="~/assets/image/works/works_img_pc.png" alt="">
+            </a>
+          </div>
         </div>
       </section>
     </main>
