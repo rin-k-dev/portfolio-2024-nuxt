@@ -104,12 +104,13 @@
                   <img class="pc_only works__photo" src="~/assets/image/top/work_1_pc.png" alt="">
                 </a>
               </div>
+              <!--
               <div class="works__content">
                 <a class="works__link" href="https://webcreatorrin.com/portfolio/sugutabe" target="_blank" rel="noopener noreferrer">
                   <img class="sp_only works__photo" src="~/assets/image/top/work_2_sp.png" alt="">
                   <img class="pc_only works__photo" src="~/assets/image/top/work_2_pc.png" alt="">
                 </a>
-              </div>
+              </div>-->
             </div>
             <div class="works__more-link-container">
               <nuxt-link to="/works" class="more-link noto-sans-jp">
