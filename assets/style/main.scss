@@ -2253,7 +2253,7 @@ img {
     background-color: #F2F2F2;
     text-align: center;
     padding-top: 1.875rem;
-
+    padding-bottom: 1.875rem;
     .work-page__work-title {
       font-size: 1.5rem;
       font-weight: 400;
@@ -2328,6 +2328,27 @@ img {
           .pc_only.work-page__work-detail-thumbnail-sp {
             display: none;
           }
+        }
+        .work-page__link-button {
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 1.6;
+          background-color: var(--color-purple);
+          color: var(--color-white);
+          width: 15.3125rem;
+          height: 4.0625rem;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          transition: all .3s ease-out;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 1.875rem;
+        }
+        .work-page__link-button:hover {
+          opacity: .7;
         }
       }
     }
