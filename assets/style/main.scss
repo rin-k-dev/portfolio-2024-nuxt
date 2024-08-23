@@ -90,6 +90,7 @@ img {
     border-radius: 5px;
     margin-top: 0.1875rem;
     margin-right: 0.1875rem;
+    color: var(--color-black);
   }
 
   @media(max-width:767.91px) {
@@ -644,7 +645,7 @@ img {
               }
 
               span:not(:first-child) {
-                margin-left: 0.9375rem;
+                margin-left: 0;
               }
             }
 
@@ -960,6 +961,8 @@ img {
               width: 100%;
               height: auto;
               object-fit: cover;
+              object-position: top;
+              aspect-ratio: 315 / 180;
             }
 
             .pc_only.works__photo {
@@ -1068,6 +1071,7 @@ img {
                 max-height: 300px;
                 object-fit: cover;
                 object-position: top;
+                aspect-ratio: 500 / 300;
               }
             }
 
@@ -1169,7 +1173,9 @@ img {
                 vertical-align: top;
                 width: 31.25rem;
                 height: auto;
-                object-fit: contain;
+                object-fit: cover;
+                object-position: top;
+                aspect-ratio: 500 / 300;
               }
             }
 

@@ -99,7 +99,7 @@
             </h2>
             <div class="works__content-wrapper-1">
               <div class="works__content">
-                <a class="works__link" href="https://webcreatorrin.com/portfolio/sugutabe" target="_blank" rel="noopener noreferrer">
+                <a class="works__link" href="https://webcreatorrin.com/sugutabe" target="_blank" rel="noopener noreferrer">
                   <img class="sp_only works__photo" src="~/assets/image/top/work_1_sp.png" alt="">
                   <img class="pc_only works__photo" src="~/assets/image/top/work_1_pc.png" alt="">
                 </a>
