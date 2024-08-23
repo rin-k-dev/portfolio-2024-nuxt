@@ -1999,14 +1999,17 @@ img {
       display: flex;
       justify-content: center;
       align-items: center;
+
       .works-list__title-text {
         text-align: center;
+
         .works-list__title-english {
           display: block;
           font-size: 2rem;
           font-weight: 700;
           line-height: 1.6;
         }
+
         .works-list__title-japanese {
           display: block;
           font-size: 0.875rem;
@@ -2030,8 +2033,10 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+
         .works-list__title-text {
           text-align: center;
+
           .works-list__title-english {
             display: block;
             font-size: 4rem;
@@ -2066,6 +2071,7 @@ img {
       flex-direction: column;
       align-items: center;
       gap: 3.75rem;
+
       .works-list__content {
         width: 100%;
         height: auto;
@@ -2079,6 +2085,7 @@ img {
           height: 100%;
           cursor: pointer;
           transition: all .3s ease-out;
+
           .sp_only.works-list__photo {
             display: inline-block;
             vertical-align: top;
@@ -2093,6 +2100,7 @@ img {
             display: none;
           }
         }
+
         .works__link:hover {
           opacity: .7;
         }
@@ -2118,6 +2126,7 @@ img {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+
         .works-list__content {
           width: 31.25rem;
           height: 18.75rem;
@@ -2169,6 +2178,7 @@ img {
         gap: 3.75rem;
         justify-content: center;
         align-items: center;
+
         .works-list__content {
           width: 31.25rem;
           height: 18.75rem;
@@ -2217,20 +2227,81 @@ img {
       display: flex;
       justify-content: center;
       align-items: center;
+
       .work-page__title-text {
         text-align: center;
+
         .work-page__title-english {
           display: block;
           font-size: 2rem;
           font-weight: 700;
           line-height: 1.6;
         }
+
         .work-page__title-japanese {
           display: block;
           font-size: 0.875rem;
           font-weight: 400;
           line-height: 1.6;
         }
+      }
+    }
+  }
+
+  .work-page__work-contents {
+    width: 100%;
+    background-color: #F2F2F2;
+    text-align: center;
+    padding-top: 1.875rem;
+
+    .work-page__work-title {
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: #ADADAD;
+    }
+
+    .work-page__work-outline {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.6;
+      color: #333333;
+      margin-top: 3.75rem;
+      margin-bottom: 3.75rem;
+    }
+
+    .work-page__work-container {
+      width: calc(100% - 1.875rem);
+      margin-left: auto;
+      margin-right: auto;
+      .work-page__work-text {
+        text-align: left;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.6;
+        color: #333333;
+        span {
+          display: inline-block;
+        }
+      }
+      .work-page__work-detail {
+        width: 100%;
+        text-align: left;
+        margin-top: 1.75rem;
+        .work-page__work-detail-subtitle {
+          font-size: 1rem;
+          font-weight: 700;
+          line-height: 1.6;
+          color: #333333;
+        }
+        .work-page__work-detail-content-link {
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.6;
+          color: #333333;
+          cursor: pointer;
+        }
+
       }
     }
   }
@@ -2248,8 +2319,10 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+
         .work-page__title-text {
           text-align: center;
+
           .work-page__title-english {
             display: block;
             font-size: 4rem;
@@ -2268,4 +2341,5 @@ img {
     }
   }
 }
+
 /* #work-page ここまで */
