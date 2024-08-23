@@ -1599,6 +1599,11 @@ img {
           opacity: .7;
         }
       }
+      .form__message {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 1.875rem;
+      }
     }
   }
 }
@@ -1768,6 +1773,11 @@ img {
           .contact__submit-button:hover {
             opacity: .7;
           }
+        }
+        .form__message {
+          font-size: 1rem;
+          text-align: center;
+          margin-top: 3.75rem;
         }
       }
     }
@@ -1939,6 +1949,11 @@ img {
           .contact__submit-button:hover {
             opacity: .7;
           }
+        }
+        .form__message {
+          font-size: 1rem;
+          text-align: center;
+          margin-top: 3.75rem;
         }
       }
     }
