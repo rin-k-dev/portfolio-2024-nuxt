@@ -2247,7 +2247,6 @@ img {
       }
     }
   }
-
   .work-page__work-contents {
     width: 100%;
     background-color: #F2F2F2;
@@ -2301,55 +2300,55 @@ img {
           color: #333333;
           cursor: pointer;
         }
-        .work-page__work-detail-thumbnail-container {
-          margin-top: 1.875rem;
-          display: flex;
-          flex-direction: column;
-          gap: 1.875rem;
-          justify-content: center;
-          align-items: center;
-          .sp_only.work-page__work-detail-thumbnail-pc {
-            display: inline-block;
-            vertical-align: bottom;
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-          }
-          .pc_only.work-page__work-detail-thumbnail-pc {
-            display: none;
-          }
-          .sp_only.work-page__work-detail-thumbnail-sp {
-            display: inline-block;
-            vertical-align: bottom;
-            width: 41.59%;
-            height: auto;
-            object-fit: cover;
-          }
-          .pc_only.work-page__work-detail-thumbnail-sp {
-            display: none;
-          }
+      }
+      .work-page__work-detail-thumbnail-container {
+        margin-top: 1.875rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+        justify-content: center;
+        align-items: center;
+        .sp_only.work-page__work-detail-thumbnail-pc {
+          display: inline-block;
+          vertical-align: bottom;
+          width: 100%;
+          height: auto;
+          object-fit: cover;
         }
-        .work-page__link-button {
-          font-size: 1.5rem;
-          font-weight: 400;
-          line-height: 1.6;
-          background-color: var(--color-purple);
-          color: var(--color-white);
-          width: 15.3125rem;
-          height: 4.0625rem;
-          border-radius: 50px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          cursor: pointer;
-          transition: all .3s ease-out;
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 1.875rem;
+        .pc_only.work-page__work-detail-thumbnail-pc {
+          display: none;
         }
-        .work-page__link-button:hover {
-          opacity: .7;
+        .sp_only.work-page__work-detail-thumbnail-sp {
+          display: inline-block;
+          vertical-align: bottom;
+          width: 41.59%;
+          height: auto;
+          object-fit: cover;
         }
+        .pc_only.work-page__work-detail-thumbnail-sp {
+          display: none;
+        }
+      }
+      .work-page__link-button {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.6;
+        background-color: var(--color-purple);
+        color: var(--color-white);
+        width: 15.3125rem;
+        height: 4.0625rem;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all .3s ease-out;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.875rem;
+      }
+      .work-page__link-button:hover {
+        opacity: .7;
       }
     }
   }
@@ -2384,6 +2383,128 @@ img {
             font-weight: 400;
             line-height: 1.6;
           }
+        }
+      }
+    }
+  }
+}
+
+@media(min-width:768px) {
+  #work-page {
+    .work-page__work-contents {
+      width: 100%;
+      background-color: #F2F2F2;
+      text-align: center;
+      padding-top: 6.25rem;
+      padding-bottom: 3.75rem;
+      .work-page__work-title {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.6;
+        color: #ADADAD;
+      }
+      .work-page__work-outline {
+        width: 50.75rem;
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.6;
+        color: #333333;
+        margin-top: 3.75rem;
+        margin-bottom: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .work-page__work-container {
+        width: calc(100% - 1.875rem);
+        min-width: 1160px;
+        margin-left: auto;
+        margin-right: auto;
+        .work-page__work-text {
+          width: 50.75rem;
+          text-align: left;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.6;
+          color: #333333;
+          span {
+            display: inline-block;
+          }
+        }
+        .work-page__work-detail {
+          width: 50.75rem;
+          text-align: left;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 1.75rem;
+          .work-page__work-detail-subtitle {
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.6;
+            color: #333333;
+          }
+          .work-page__work-detail-content-link {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.6;
+            color: #333333;
+            cursor: pointer;
+          }
+        }
+        .work-page__work-detail-thumbnail-container {
+          width: calc(100% - 18.125rem);
+          min-width: 1150px;
+          margin-top: 3.4375rem;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          flex-direction: row;
+          gap: 8.3125rem;
+          justify-content: center;
+          align-items: flex-end;
+          .sp_only.work-page__work-detail-thumbnail-pc {
+            display: none;
+          }
+          .pc_only.work-page__work-detail-thumbnail-pc {
+            display: inline-block;
+            vertical-align: bottom;
+            width: 55.625rem;
+            height: auto;
+            object-fit: cover;
+          }
+          .sp_only.work-page__work-detail-thumbnail-sp {
+            display: none;
+          }
+          .pc_only.work-page__work-detail-thumbnail-sp {
+            display: inline-block;
+            vertical-align: bottom;
+            width: 9.4375rem;
+            height: auto;
+            object-fit: cover;
+          }
+        }
+        .work-page__link-button {
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 1.6;
+          background-color: var(--color-purple);
+          color: var(--color-white);
+          width: 15.3125rem;
+          height: 4.0625rem;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          transition: all .3s ease-out;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 3.75rem;
+        }
+        .work-page__link-button:hover {
+          opacity: .7;
         }
       }
     }
