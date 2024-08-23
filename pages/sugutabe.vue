@@ -47,6 +47,12 @@
               制作期間：
             </h5>
             <span class="work-page__work-detail-content-text">1ヶ月</span>
+            <div class="work-page__work-detail-thumbnail-container">
+              <img class="sp_only work-page__work-detail-thumbnail-pc" src="~/assets/image/work/sugutabe_thumb_pc_sp.png" alt="">
+              <img class="pc_only work-page__work-detail-thumbnail-pc" src="~/assets/image/work/sugutabe_thumb_pc_pc.png" alt="">
+              <img class="sp_only work-page__work-detail-thumbnail-sp" src="~/assets/image/work/sugutabe_thumb_sp_sp.png" alt="">
+              <img class="pc_only work-page__work-detail-thumbnail-sp" src="~/assets/image/work/sugutabe_thumb_sp_pc.png" alt="">
+            </div>
           </div>
         </div>
       </section>

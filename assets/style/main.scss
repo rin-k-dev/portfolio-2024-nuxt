@@ -2301,7 +2301,34 @@ img {
           color: #333333;
           cursor: pointer;
         }
-
+        .work-page__work-detail-thumbnail-container {
+          margin-top: 1.875rem;
+          display: flex;
+          flex-direction: column;
+          gap: 1.875rem;
+          justify-content: center;
+          align-items: center;
+          .sp_only.work-page__work-detail-thumbnail-pc {
+            display: inline-block;
+            vertical-align: bottom;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
+          .pc_only.work-page__work-detail-thumbnail-pc {
+            display: none;
+          }
+          .sp_only.work-page__work-detail-thumbnail-sp {
+            display: inline-block;
+            vertical-align: bottom;
+            width: 41.59%;
+            height: auto;
+            object-fit: cover;
+          }
+          .pc_only.work-page__work-detail-thumbnail-sp {
+            display: none;
+          }
+        }
       }
     }
   }
