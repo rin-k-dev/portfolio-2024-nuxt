@@ -206,7 +206,7 @@
                 <label for="message" class="contact__message-label noto-sans-jp">Message<span class="contact__text-red">*</span></label>
                 <textarea id="message" class="contact__message-textarea" name="entry.1714098188" cols="41" rows="11" required></textarea>
               </div>
-              <button type="submit" class="contact__submit-button">送信</button>
+              <button type="submit" class="contact__submit-button noto-sans-jp">送信</button>
             </form>
             <div id="contact__form-message" class="form__message noto-sans-jp"></div>
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
